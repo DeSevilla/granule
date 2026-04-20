@@ -4,6 +4,9 @@
   - Improved pretty printer support internally
   - New cabal setup
   - `Set` and `SetOp` were exchanged, to conform to usage in (On Graded Coeffect Types for Information-Flow Control)[https://granule-project.github.io/papers/security-coeffects-mycroftfest.pdf].
+  - Pattern matching on characters (thanks to @DeSevilla)
+  - Fixes to pattern matching on integers (thanks to @DeSevilla)
+  - `--dest` flag to specify a target directory for grc (thanks to @heades).
 
   # 0.9.6.0
    - Graded uniqueness for borrowing and lifetimes as described in our OOPSLA 2024 paper: https://dl.acm.org/doi/10.1145/3649848. Examples in:
